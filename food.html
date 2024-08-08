@@ -1,37 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food & Gifts - Christ Care Ministry</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body class="bg-gray-50 text-gray-800">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+  </head>
+  <body class="bg-gray-50 text-gray-800">
     <nav class="bg-white shadow-md">
-        <div class="container mx-auto p-4">
-            <ul class="flex space-x-4">
-                <li><a href="index.html" class="text-gray-600 hover:text-gray-900">Home</a></li>
-                <li><a href="food.html" class="text-gray-600 hover:text-gray-900">Food</a></li>
-            </ul>
-        </div>
+      <div class="container mx-auto p-4">
+        <ul class="flex space-x-4">
+          <li>
+            <a href="index.html" class="text-gray-600 hover:text-gray-900"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="food.html" class="text-gray-600 hover:text-gray-900"
+              >Food</a
+            >
+          </li>
+        </ul>
+      </div>
     </nav>
     <main class="container mx-auto my-8 px-4">
-        <header class="bg-white py-16 text-center shadow-md">
-            <h1 class="text-4xl font-bold text-gray-800">Food & Gifts</h1>
-            <div class="mt-4">
-                <a href="https://forms.gle/anJGtmwQt5vcRqkj7" class="inline-block bg-blue-400 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-700 mr-2">Request via Google Form</a>
-                <!-- <a href="tel:YOUR_PHONE_NUMBER" class="inline-block bg-green-400 text-white px-4 py-2 rounded-lg shadow-md hover:bg-green-700 mr-2">Request via Phone</a>
-                <a href="mailto:YOUR_EMAIL_ADDRESS" class="inline-block bg-red-400 text-white px-4 py-2 rounded-lg shadow-md hover:bg-red-700">Request via Email</a> -->
-            </div>
-        </header>
-        <section class="bg-white p-8 rounded-lg shadow-md mb-8">
-            <h2 class="text-2xl font-semibold mb-4 text-center">Currently Available</h2>
-            <iframe width="100%" height="600px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSzTsiOVc0DjZG0cL5PaVX28HraVg5Y8XrQE5nXPUxp4ydKNSgeOdfm5zz2yl_w9m6eCFYV8m_d7smD/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-        </section>
+        <header class="bg-white text-center shadow-md p-8">
+
+        <h1 class="text-4xl pb-4 font-bold text-gray-800">Food & Gifts</h1>
+        <p class="text-lg pb-16 text-center">
+          We run as a non-profit. Every pallet and truck delivery costs.
+          Donations greatly appreciated.
+        </p>
+
+      <section class="bg-white px-8 rounded-lg shadow-md mb-8">
+        <h1 class="text-3xl pb-4 font-bold text-gray-800">Currently Available</h1>
+        <div class="space-y-2 space-x-2 pb-8">
+            <!-- Request for Food Button -->
+            <a
+              href="mailto:deanjweber2000@yahoo.com"
+              class="inline-block bg-blue-400 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-600"
+            >
+              Request Current Food/Gifts
+            </a>
+  
+            <!-- Donations Button -->
+            <a
+              href="mailto:deanjweber2000@yahoo.com"
+              class="inline-block bg-green-400 text-white px-4 py-2 rounded-lg shadow-md hover:bg-green-600"
+            >
+              Support Our Ministry
+            </a>
+  
+            <!-- Request for Food Not on List Button -->
+            <a
+              href="mailto:deanjweber2000@yahoo.com"
+              class="inline-block bg-yellow-400 text-white px-4 py-2 rounded-lg shadow-md hover:bg-yellow-500"
+            >
+              Request Unavailable Food/Gifts
+            </a>
+          </div>
+        <iframe
+          width="100%"
+          height="600px"
+          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSzTsiOVc0DjZG0cL5PaVX28HraVg5Y8XrQE5nXPUxp4ydKNSgeOdfm5zz2yl_w9m6eCFYV8m_d7smD/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
+        ></iframe>
+      </section>
+    </header>
+
     </main>
     <footer class="bg-white text-center py-4 shadow-md mt-8">
-        <p>&copy; 2024 Christ Care Ministry. All rights reserved.</p>
+      <p>&copy; 2024 Christ Care Ministry. All rights reserved.</p>
     </footer>
-</body>
+  </body>
 </html>
