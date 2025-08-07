@@ -3,129 +3,293 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Christ Care Ministry</title>
+    <title>Christ Care Ministry - Bringing Hope and Nourishment to Communities</title>
+    <meta name="description" content="Christ Care Ministry delivers food and essential items to communities in need across IL, KY, VA, WV, MO, LA and beyond. Join us in spreading Christ's love through service." />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:title" content="Christ Care Ministry - Bringing Hope and Nourishment" />
+    <meta property="og:description" content="Delivering food and essential items to communities in need" />
+    <meta property="og:type" content="website" />
   </head>
   <body class="bg-gray-50 text-gray-800">
+    <!-- Enhanced Navigation -->
     <nav class="bg-white shadow-md">
       <div class="container mx-auto p-4">
-        <ul class="flex space-x-4">
-          <li>
-            <a href="index.html" class="text-gray-600 hover:text-gray-900"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a href="food.html" class="text-gray-600 hover:text-gray-900"
-              >Food</a
-            >
-          </li>
-        </ul>
+        <div class="flex items-center justify-between">
+          <div class="flex items-center space-x-2">
+            <div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center">
+              <span class="text-white font-bold text-sm">CC</span>
+            </div>
+            <span class="font-semibold text-gray-800">Christ Care Ministry</span>
+          </div>
+          <ul class="flex space-x-6">
+            <li>
+              <a href="index.html" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md">
+                🏠 Home
+              </a>
+            </li>
+            <li>
+              <a href="food.html" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md">
+                🍞 Food & Gifts
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
+
     <main class="container mx-auto my-8 px-4">
-      <section class="bg-white p-8 rounded-lg shadow-md mb-8 text-center">
-        <header class="bg-white py-8 text-center">
-          <h1 class="text-4xl font-bold text-gray-800">Christ Care Ministry</h1>
-        </header>
-        <p class="text-lg pb-4">
-          We believe the good Lord is giving us the blessings to go out and be a
-          blessing to others.
-        </p>
-        <img
-          class="mx-auto rounded-lg softened-image"
-          src="img/ChristCareTruckPicture.webp"
-          alt="Christ Care Ministry Truck"
-          class="mx-auto rounded-lg"
-        />
-      </section>
-      <section class="bg-white p-8 rounded-lg shadow-md mb-8 text-center">
-        <div class="mt-4">
-          <h2 class="text-4xl font-semibold pb-8">Rev. Dean Weber</h2>
-          <p class="pb-4 text-center">
-            I am Rev. Dean Weber, looking to help more people, churches, and
-            organizations as much as my trucks and my team can take me. <br />
-            We operate with two box trucks to maximize our outreach and service
-            capabilities.
+      <!-- Hero Section -->
+      <section class="hero bg-white p-12 rounded-xl shadow-lg mb-12 text-center fade-in">
+        <header>
+          <h1 class="text-5xl font-bold text-gray-800 mb-6">Christ Care Ministry</h1>
+          <p class="text-xl mb-8 text-gray-700 leading-relaxed">
+            We believe the good Lord is giving us the blessings to go out and be a
+            blessing to others. Join us in spreading hope and nourishment to communities in need.
           </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+            <a href="food.html" class="btn btn-blue px-8 py-3 rounded-lg text-lg">
+              🍞 View Available Food
+            </a>
+            <a href="mailto:deanjweber2000@yahoo.com?subject=Supporting%20Christ%20Care%20Ministry" 
+               class="btn btn-green px-8 py-3 rounded-lg text-lg">
+              💝 Support Our Ministry
+            </a>
+          </div>
+        </header>
+        <div class="mt-8">
+          <img
+            class="mx-auto rounded-xl softened-image max-w-2xl w-full"
+            src="img/ChristCareTruckPicture.webp"
+            alt="Christ Care Ministry Truck delivering hope to communities"
+          />
         </div>
-        <img
-          class="mx-auto rounded-lg softened-image"
-          src="img/DeanPicture.webp"
-          alt="Rev. Dean Weber"
-          class="mx-auto rounded-lg"
-        />
       </section>
-      <section class="bg-white p-8 rounded-lg shadow-md mb-8">
-        <h2 class="text-4xl font-semibold pb-8 text-center">Our Mission</h2>
-        <p class="text-lg mb-4 text-center">
-          Christ Care Ministry is a Christian organization dedicated to
-          delivering food and essential items to food pantries and individuals
-          in need. Our mission is to be a blessing to others through the
-          resources and blessings we've been given.
-        </p>
+
+      <!-- About Rev. Dean Weber -->
+      <section class="bg-white p-10 rounded-xl shadow-lg mb-12 fade-in">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            <h2 class="text-4xl font-semibold mb-6 text-center md:text-left">Rev. Dean Weber</h2>
+            <p class="text-lg mb-6 leading-relaxed">
+              I am Rev. Dean Weber, dedicated to helping more people, churches, and
+              organizations through our ministry. Our mission extends as far as our trucks and team can reach.
+            </p>
+            <p class="text-lg leading-relaxed">
+              We operate with <strong>two box trucks</strong> to maximize our outreach and service
+              capabilities, ensuring we can deliver hope and essential supplies to communities across multiple states.
+            </p>
+            <div class="mt-6 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-400">
+              <p class="text-blue-800 font-medium">
+                📍 Serving: IL, KY, VA, WV, MO, LA, and beyond
+              </p>
+            </div>
+          </div>
+          <div class="text-center">
+            <img
+              class="mx-auto rounded-xl softened-image max-w-md w-full"
+              src="img/DeanPicture.webp"
+              alt="Rev. Dean Weber - Founder of Christ Care Ministry"
+            />
+          </div>
+        </div>
       </section>
-      <section class="bg-white p-8 rounded-lg shadow-md mb-8">
-        <h2 class="text-4xl font-semibold pb-8 text-center">Our Services</h2>
-        <p class="text-lg mb-4 text-center">
-          We provide essential items such as food, household items, and
-          Christmas gifts to those in need. Our team travels across IL, KY, VA,
-          WV, MO, LA, and more, reaching out to communities and spreading
-          Christ's love and support.
+
+      <!-- Mission Section -->
+      <section class="mission bg-white p-10 rounded-xl shadow-lg mb-12 fade-in">
+        <h2 class="text-4xl font-semibold mb-8 text-center">Our Mission</h2>
+        <div class="max-w-4xl mx-auto">
+          <p class="text-xl mb-6 text-center leading-relaxed">
+            Christ Care Ministry is a Christian organization dedicated to
+            delivering food and essential items to food pantries and individuals
+            in need.
+          </p>
+          <div class="grid md:grid-cols-3 gap-6 mt-8">
+            <div class="text-center p-6 bg-green-50 rounded-lg">
+              <div class="text-4xl mb-4">🙏</div>
+              <h3 class="text-xl font-semibold mb-2">Faith-Driven</h3>
+              <p>Guided by Christian values and the call to serve others with love and compassion.</p>
+            </div>
+            <div class="text-center p-6 bg-blue-50 rounded-lg">
+              <div class="text-4xl mb-4">🚚</div>
+              <h3 class="text-xl font-semibold mb-2">Direct Delivery</h3>
+              <p>Two box trucks ensuring efficient delivery of food and supplies to those who need them most.</p>
+            </div>
+            <div class="text-center p-6 bg-orange-50 rounded-lg">
+              <div class="text-4xl mb-4">❤️</div>
+              <h3 class="text-xl font-semibold mb-2">Community Impact</h3>
+              <p>Spreading Christ's love and support across multiple states and communities.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="services bg-white p-10 rounded-xl shadow-lg mb-12 fade-in">
+        <h2 class="text-4xl font-semibold mb-8 text-center">Our Services</h2>
+        <p class="text-xl mb-8 text-center leading-relaxed max-w-4xl mx-auto">
+          We provide essential items such as food, household supplies, and
+          Christmas gifts to those in need. Our dedicated team travels across multiple states,
+          reaching communities and spreading Christ's love and support.
         </p>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <img
-            class="mx-auto rounded-lg softened-image"
-            src="img/WholeFoodDelivery.webp"
-            alt="Whole Food Delivery"
-            class="rounded-lg"
-          />
-          <img
-            class="mx-auto rounded-lg softened-image"
-            src="img/ChristmasGifts.webp"
-            alt="Christmas Gifts"
-            class="rounded-lg"
-          />
-          <img
-            class="mx-auto rounded-lg softened-image"
-            src="img/BoxTruckWith3Pallets.webp"
-            alt="Box Truck with 3 Pallets"
-            class="rounded-lg"
-          />
-          <img
-            class="mx-auto rounded-lg softened-image"
-            src="img/BoxTruckWithPallet.webp"
-            alt="Box Truck with Pallet"
-            class="rounded-lg"
-          />
-          <img
-            class="mx-auto rounded-lg softened-image"
-            src="img/BoxesDelivery.webp"
-            alt="Boxes Delivery"
-            class="rounded-lg"
-          />
-          <img
-            class="mx-auto rounded-lg softened-image"
-            src="img/Pallets.webp"
-            alt="Pallets"
-            class="rounded-lg"
-          />
-          <img
-            class="mx-auto rounded-lg softened-image"
-            src="img/Christmas+FoodDelivery.webp"
-            alt="Christmas and Food Delivery"
-            class="rounded-lg"
-          />
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 image-grid">
+          <div class="relative group">
+            <img
+              class="softened-image w-full h-64 object-cover"
+              src="img/WholeFoodDelivery.webp"
+              alt="Whole Food Delivery - Nutritious meals for families in need"
+            />
+            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 rounded-xl flex items-center justify-center">
+              <span class="text-white font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Food Delivery
+              </span>
+            </div>
+          </div>
+          
+          <div class="relative group">
+            <img
+              class="softened-image w-full h-64 object-cover"
+              src="img/ChristmasGifts.webp"
+              alt="Christmas Gifts - Bringing joy during the holiday season"
+            />
+            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 rounded-xl flex items-center justify-center">
+              <span class="text-white font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Christmas Gifts
+              </span>
+            </div>
+          </div>
+          
+          <div class="relative group">
+            <img
+              class="softened-image w-full h-64 object-cover"
+              src="img/BoxTruckWith3Pallets.webp"
+              alt="Box Truck with 3 Pallets - Large scale delivery operations"
+            />
+            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 rounded-xl flex items-center justify-center">
+              <span class="text-white font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Large Deliveries
+              </span>
+            </div>
+          </div>
+          
+          <div class="relative group">
+            <img
+              class="softened-image w-full h-64 object-cover"
+              src="img/BoxTruckWithPallet.webp"
+              alt="Box Truck with Pallet - Efficient distribution system"
+            />
+            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 rounded-xl flex items-center justify-center">
+              <span class="text-white font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Pallet Distribution
+              </span>
+            </div>
+          </div>
+          
+          <div class="relative group">
+            <img
+              class="softened-image w-full h-64 object-cover"
+              src="img/BoxesDelivery.webp"
+              alt="Boxes Delivery - Organized distribution of essential supplies"
+            />
+            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 rounded-xl flex items-center justify-center">
+              <span class="text-white font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Box Distribution
+              </span>
+            </div>
+          </div>
+          
+          <div class="relative group">
+            <img
+              class="softened-image w-full h-64 object-cover"
+              src="img/Pallets.webp"
+              alt="Pallets - Bulk food and supply organization"
+            />
+            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 rounded-xl flex items-center justify-center">
+              <span class="text-white font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Bulk Supplies
+              </span>
+            </div>
+          </div>
+          
+          <div class="relative group md:col-span-2 lg:col-span-1">
+            <img
+              class="softened-image w-full h-64 object-cover"
+              src="img/Christmas+FoodDelivery.webp"
+              alt="Christmas and Food Delivery - Holiday spirit and nourishment combined"
+            />
+            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 rounded-xl flex items-center justify-center">
+              <span class="text-white font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Holiday Deliveries
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-12 text-center">
+          <a href="food.html" class="btn btn-blue px-8 py-3 rounded-lg text-lg inline-flex items-center gap-2">
+            🍞 View Current Food Availability
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </a>
         </div>
       </section>
     </main>
-    <footer class="bg-white text-center py-4 shadow-md mt-8">
-      <p>&copy; 2024 Christ Care Ministry. All rights reserved.</p>
+
+    <!-- Enhanced Footer -->
+    <footer class="bg-gradient-to-r from-gray-800 to-gray-900 text-white text-center py-8 shadow-lg mt-12">
+      <div class="container mx-auto px-4">
+        <div class="grid md:grid-cols-3 gap-8 mb-6">
+          <div>
+            <h3 class="text-lg font-semibold mb-3">Contact Us</h3>
+            <p class="text-gray-300">
+              📧 <a href="mailto:deanjweber2000@yahoo.com" class="hover:text-blue-300 transition-colors">
+                deanjweber2000@yahoo.com
+              </a>
+            </p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-3">Service Areas</h3>
+            <p class="text-gray-300">IL • KY • VA • WV • MO • LA</p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-3">Our Mission</h3>
+            <p class="text-gray-300">Spreading Christ's love through service</p>
+          </div>
+        </div>
+        <div class="border-t border-gray-700 pt-4">
+          <p>&copy; 2024 Christ Care Ministry. All rights reserved.</p>
+          <p class="text-gray-400 text-sm mt-2">Bringing hope and nourishment to communities in need</p>
+        </div>
+      </div>
     </footer>
+
+    <!-- Smooth Scroll Script -->
+    <script>
+      // Add fade-in animation on scroll
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('fade-in');
+          }
+        });
+      }, observerOptions);
+
+      // Observe all sections
+      document.querySelectorAll('section').forEach(section => {
+        observer.observe(section);
+      });
+    </script>
   </body>
 </html>

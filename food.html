@@ -10,77 +10,246 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
     <title>Food & Gifts - Christ Care Ministry</title>
+    <meta name="description" content="Request food and gifts from Christ Care Ministry. View our current inventory and support our non-profit mission of serving communities in need." />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:title" content="Food & Gifts - Christ Care Ministry" />
+    <meta property="og:description" content="Request food and gifts from our current inventory to support your community" />
+    <meta property="og:type" content="website" />
   </head>
   <body class="bg-gray-50 text-gray-800">
+    <!-- Enhanced Navigation -->
     <nav class="bg-white shadow-md">
       <div class="container mx-auto p-4">
-        <ul class="flex space-x-4">
-          <li>
-            <a href="index.html" class="text-gray-600 hover:text-gray-900"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a href="food.html" class="text-gray-600 hover:text-gray-900"
-              >Food</a
-            >
-          </li>
-        </ul>
+        <div class="flex items-center justify-between">
+          <div class="flex items-center space-x-2">
+            <div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center">
+              <span class="text-white font-bold text-sm">CC</span>
+            </div>
+            <span class="font-semibold text-gray-800">Christ Care Ministry</span>
+          </div>
+          <ul class="flex space-x-6">
+            <li>
+              <a href="index.html" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md">
+                🏠 Home
+              </a>
+            </li>
+            <li>
+              <a href="food.html" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md">
+                🍞 Food & Gifts
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
+
     <main class="container mx-auto my-8 px-4">
-      <header class="bg-white text-center shadow-md p-8">
-        <h1 class="text-4xl pb-4 font-bold text-gray-800">Food & Gifts</h1>
-        <p class="text-lg pb-16 text-center">
-          We run as a non-profit. Every pallet and truck delivery has monetary
-          costs. Donations greatly appreciated.
-        </p>
+      <!-- Hero Section for Food Page -->
+      <section class="hero bg-white p-12 rounded-xl shadow-lg mb-12 text-center fade-in">
+        <header>
+          <h1 class="text-5xl font-bold text-gray-800 mb-6">Food & Gifts</h1>
+          <p class="text-xl mb-8 text-gray-700 leading-relaxed max-w-3xl mx-auto">
+            We run as a non-profit organization, and every pallet and truck delivery incurs monetary
+            costs. Your donations are greatly appreciated and help us continue serving communities in need.
+          </p>
+          
+          <!-- Donation Information Card -->
+          <div class="bg-gradient-to-r from-green-50 to-blue-50 p-6 rounded-xl border-2 border-green-200 mb-8 max-w-2xl mx-auto">
+            <div class="flex items-center justify-center mb-4">
+              <div class="text-3xl mr-3">💝</div>
+              <h3 class="text-xl font-semibold text-gray-800">Support Our Mission</h3>
+            </div>
+            <p class="text-gray-700 mb-4">
+              Every donation helps us reach more families and communities with essential supplies and hope.
+            </p>
+            <div class="flex flex-wrap gap-2 justify-center text-sm text-gray-600">
+              <span class="bg-white px-3 py-1 rounded-full">🚚 Truck Fuel</span>
+              <span class="bg-white px-3 py-1 rounded-full">📦 Packaging</span>
+              <span class="bg-white px-3 py-1 rounded-full">🍞 Additional Food</span>
+              <span class="bg-white px-3 py-1 rounded-full">🎁 Gift Supplies</span>
+            </div>
+          </div>
+        </header>
+      </section>
 
-        <section class="bg-white px-8 rounded-lg shadow-md mb-8">
-          <h1 class="text-3xl pb-4 font-bold text-gray-800">
-            Currently Available
-          </h1>
-          <div class="space-y-2 space-x-2 pb-8">
-            <!-- Request for Food Button -->
-            <a
-              href="mailto:deanjweber2000@yahoo.com?subject=Request%20for%20Food&body=Hello%20Rev.%20Dean%2C%0A%0AI%20would%20like%20to%20request%20the%20following%20food%3A%0A-%20%5BItem%201%5D%0A-%20%5BItem%202%5D%0A%0AI%20am%20also%20interested%20in%20donating%3A%0A-%20%5BMonetary%20Donation%5D%0A-%20%5BFood%5D%0A-%20%5BSupplies%5D%0A-%20%5BSomething%20Else%5D%0A%0A%0APlease%20contact%20me%20at%3A%0AName%3A%20%5BYour%20Name%5D%0APhone%3A%20%5BYour%20Phone%20Number%5D%0AEmail%3A%20%5BYour%20Email%5D%0A%0AAddress%3A%20%5BYour%20Address%5D%0ADelivery%20Address%20(if%20different)%3A%20%5BDelivery%20Address%5D%0A%0AThank%20you%20for%20your%20service%21%0A%0ABest%20regards%2C%0A%5BYour%20Name%5D"
-              class="inline-block bg-blue-400 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-600"
+      <!-- Current Inventory Section -->
+      <section class="bg-white p-10 rounded-xl shadow-lg mb-12 fade-in">
+        <div class="text-center mb-8">
+          <h2 class="text-4xl font-semibold mb-4 text-gray-800">Currently Available</h2>
+          <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+            Browse our current inventory below and use the action buttons to request items or support our ministry.
+          </p>
+        </div>
+        
+        <!-- Action Buttons -->
+        <div class="flex flex-col lg:flex-row gap-4 justify-center mb-8 max-w-4xl mx-auto">
+          <!-- Request Current Food Button -->
+          <a
+            href="mailto:deanjweber2000@yahoo.com?subject=Request%20for%20Food&body=Hello%20Rev.%20Dean%2C%0A%0AI%20would%20like%20to%20request%20the%20following%20food%3A%0A-%20%5BItem%201%5D%0A-%20%5BItem%202%5D%0A%0AI%20am%20also%20interested%20in%20donating%3A%0A-%20%5BMonetary%20Donation%5D%0A-%20%5BFood%5D%0A-%20%5BSupplies%5D%0A-%20%5BSomething%20Else%5D%0A%0A%0APlease%20contact%20me%20at%3A%0AName%3A%20%5BYour%20Name%5D%0APhone%3A%20%5BYour%20Phone%20Number%5D%0AEmail%3A%20%5BYour%20Email%5D%0A%0AAddress%3A%20%5BYour%20Address%5D%0ADelivery%20Address%20(if%20different)%3A%20%5BDelivery%20Address%5D%0A%0AThank%20you%20for%20your%20service%21%0A%0ABest%20regards%2C%0A%5BYour%20Name%5D"
+            class="btn btn-blue px-6 py-4 rounded-xl text-lg font-semibold inline-flex items-center justify-center gap-3 flex-1 min-w-0 transition-all duration-300"
+          >
+            <span class="text-2xl">🍞</span>
+            <div class="text-left">
+              <div>Request Current Food/Gifts</div>
+              <div class="text-sm opacity-90 font-normal">Available in inventory</div>
+            </div>
+          </a>
+
+          <!-- Donations Button -->
+          <a
+            href="mailto:deanjweber2000@yahoo.com?subject=Supporting%20Christ%20Care%20Ministry&body=Hello%20Rev.%20Dean%2C%0A%0AI%20would%20like%20to%20make%20a%20donation%20to%20support%20your%20ministry.%0A%0AI%20would%20like%20to%20donate%3A%0A-%20%5BMonetary%20Donation%5D%0A-%20%5BFood%5D%0A-%20%5BSupplies%5D%0A-%20%5BSomething%20Else%5D%0A%0A%0APlease%20contact%20me%20at%3A%0AName%3A%20%5BYour%20Name%5D%0APhone%3A%20%5BYour%20Phone%20Number%5D%0AEmail%3A%20%5BYour%20Email%5D%0A%0AAddress%3A%20%5BYour%20Address%5D%0A%0AThank%20you%20for%20the%20work%20you%20do%21%0A%0ABest%20regards%2C%0A%5BYour%20Name%5D"
+            class="btn btn-green px-6 py-4 rounded-xl text-lg font-semibold inline-flex items-center justify-center gap-3 flex-1 min-w-0 transition-all duration-300"
+          >
+            <span class="text-2xl">💝</span>
+            <div class="text-left">
+              <div>Support Our Ministry</div>
+              <div class="text-sm opacity-90 font-normal">Make a donation</div>
+            </div>
+          </a>
+
+          <!-- Request Special Items Button -->
+          <a
+            href="mailto:deanjweber2000@yahoo.com?subject=Request%20for%20Specific%20Food%20Items&body=Hello%20Rev.%20Dean%2C%0A%0AI%20am%20looking%20for%20specific%20food%20items%20that%20may%20not%20be%20listed%3A%0A-%20%5BItem%201%5D%0A-%20%5BItem%202%5D%0A%0AI%20am%20also%20interested%20in%20donating%3A%0A-%20%5BMonetary%20Donation%5D%0A-%20%5BFood%5D%0A-%20%5BSupplies%5D%0A-%20%5BSomething%20Else%5D%0A%0A%0APlease%20contact%20me%20at%3A%0AName%3A%20%5BYour%20Name%5D%0APhone%3A%20%5BYour%20Phone%20Number%5D%0AEmail%3A%20%5BYour%20Email%5D%0A%0AAddress%3A%20%5BYour%20Address%5D%0ADelivery%20Address%20(if%20different)%3A%20%5BDelivery%20Address%5D%0A%0AThank%20you%20for%20your%20service%21%0A%0ABest%20regards%2C%0A%5BYour%20Name%5D"
+            class="btn btn-yellow px-6 py-4 rounded-xl text-lg font-semibold inline-flex items-center justify-center gap-3 flex-1 min-w-0 transition-all duration-300"
+          >
+            <span class="text-2xl">🔍</span>
+            <div class="text-left">
+              <div>Request Unavailable Items</div>
+              <div class="text-sm opacity-90 font-normal">Special requests</div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Inventory Display -->
+        <div class="bg-gray-50 p-6 rounded-xl border-2 border-gray-200">
+          <div class="flex items-center justify-center mb-6">
+            <div class="text-2xl mr-3">📋</div>
+            <h3 class="text-2xl font-semibold text-gray-800">Live Inventory</h3>
+          </div>
+          <div class="bg-white rounded-lg shadow-inner p-4">
+            <iframe
+              width="100%"
+              height="600px"
+              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRS_DzD7LvWpLIqyNnnKD_PiV7KP-Mb4K9FiwYDRhB9ygGt92dFIKqQtqMuWsv3gDaqljJJg7EFy-w4/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
+              class="rounded-lg"
+              title="Current Food and Gift Inventory"
+            ></iframe>
+          </div>
+          <div class="mt-4 text-center">
+            <p class="text-sm text-gray-600">
+              📊 Inventory is updated regularly. Items shown may vary based on availability and recent deliveries.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- How It Works Section -->
+      <section class="bg-white p-10 rounded-xl shadow-lg mb-12 fade-in">
+        <h2 class="text-4xl font-semibold mb-8 text-center">How It Works</h2>
+        <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+          <div class="text-center p-6 bg-blue-50 rounded-xl">
+            <div class="text-4xl mb-4">1️⃣</div>
+            <h3 class="text-xl font-semibold mb-3 text-gray-800">Browse & Request</h3>
+            <p class="text-gray-600">
+              Check our live inventory and click the appropriate button to request items via email.
+            </p>
+          </div>
+          <div class="text-center p-6 bg-green-50 rounded-xl">
+            <div class="text-4xl mb-4">2️⃣</div>
+            <h3 class="text-xl font-semibold mb-3 text-gray-800">We Respond</h3>
+            <p class="text-gray-600">
+              Rev. Dean will contact you to confirm availability and arrange delivery details.
+            </p>
+          </div>
+          <div class="text-center p-6 bg-orange-50 rounded-xl">
+            <div class="text-4xl mb-4">3️⃣</div>
+            <h3 class="text-xl font-semibold mb-3 text-gray-800">Delivery</h3>
+            <p class="text-gray-600">
+              Our trucks deliver food and gifts directly to your location or designated pickup point.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Information -->
+      <section class="bg-gradient-to-r from-blue-50 to-green-50 p-10 rounded-xl shadow-lg mb-12 fade-in">
+        <div class="text-center max-w-2xl mx-auto">
+          <h2 class="text-3xl font-semibold mb-6 text-gray-800">Need Help?</h2>
+          <p class="text-lg mb-6 text-gray-700">
+            Have questions about our services or need assistance with your request? We're here to help!
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a 
+              href="mailto:deanjweber2000@yahoo.com" 
+              class="btn btn-blue px-6 py-3 rounded-lg text-lg inline-flex items-center justify-center gap-2"
             >
-              Request Current Food/Gifts
+              📧 Email Rev. Dean
             </a>
-
-            <!-- Donations Button -->
-            <a
-              href="mailto:deanjweber2000@yahoo.com?subject=Supporting%20Christ%20Care%20Ministry&body=Hello%20Rev.%20Dean%2C%0A%0AI%20would%20like%20to%20make%20a%20donation%20to%20support%20your%20ministry.%0A%0AI%20would%20like%20to%20donate%3A%0A-%20%5BMonetary%20Donation%5D%0A-%20%5BFood%5D%0A-%20%5BSupplies%5D%0A-%20%5BSomething%20Else%5D%0A%0A%0APlease%20contact%20me%20at%3A%0AName%3A%20%5BYour%20Name%5D%0APhone%3A%20%5BYour%20Phone%20Number%5D%0AEmail%3A%20%5BYour%20Email%5D%0A%0AAddress%3A%20%5BYour%20Address%5D%0A%0AThank%20you%20for%20the%20work%20you%20do%21%0A%0ABest%20regards%2C%0A%5BYour%20Name%5D"
-              class="inline-block bg-green-400 text-white px-4 py-2 rounded-lg shadow-md hover:bg-green-600"
+            <a 
+              href="index.html" 
+              class="btn btn-green px-6 py-3 rounded-lg text-lg inline-flex items-center justify-center gap-2"
             >
-              Support Our Ministry
-            </a>
-
-            <!-- Request for Food Not on List Button -->
-            <a
-              href="mailto:deanjweber2000@yahoo.com?subject=Request%20for%20Specific%20Food%20Items&body=Hello%20Rev.%20Dean%2C%0A%0AI%20am%20looking%20for%20specific%20food%20items%20that%20may%20not%20be%20listed%3A%0A-%20%5BItem%201%5D%0A-%20%5BItem%202%5D%0A%0AI%20am%20also%20interested%20in%20donating%3A%0A-%20%5BMonetary%20Donation%5D%0A-%20%5BFood%5D%0A-%20%5BSupplies%5D%0A-%20%5BSomething%20Else%5D%0A%0A%0APlease%20contact%20me%20at%3A%0AName%3A%20%5BYour%20Name%5D%0APhone%3A%20%5BYour%20Phone%20Number%5D%0AEmail%3A%20%5BYour%20Email%5D%0A%0AAddress%3A%20%5BYour%20Address%5D%0ADelivery%20Address%20(if%20different)%3A%20%5BDelivery%20Address%5D%0A%0AThank%20you%20for%20your%20service%21%0A%0ABest%20regards%2C%0A%5BYour%20Name%5D"
-              class="inline-block bg-yellow-400 text-white px-4 py-2 rounded-lg shadow-md hover:bg-yellow-500"
-            >
-              Request Unavailable Food/Gifts
+              🏠 Back to Home
             </a>
           </div>
-          <iframe
-            width="100%"
-            height="600px"
-            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRS_DzD7LvWpLIqyNnnKD_PiV7KP-Mb4K9FiwYDRhB9ygGt92dFIKqQtqMuWsv3gDaqljJJg7EFy-w4/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
-          ></iframe>
-        </section>
-      </header>
+        </div>
+      </section>
     </main>
-    <footer class="bg-white text-center py-4 shadow-md mt-8">
-      <p>&copy; 2024 Christ Care Ministry. All rights reserved.</p>
+
+    <!-- Enhanced Footer -->
+    <footer class="bg-gradient-to-r from-gray-800 to-gray-900 text-white text-center py-8 shadow-lg mt-12">
+      <div class="container mx-auto px-4">
+        <div class="grid md:grid-cols-3 gap-8 mb-6">
+          <div>
+            <h3 class="text-lg font-semibold mb-3">Contact Us</h3>
+            <p class="text-gray-300">
+              📧 <a href="mailto:deanjweber2000@yahoo.com" class="hover:text-blue-300 transition-colors">
+                deanjweber2000@yahoo.com
+              </a>
+            </p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-3">Service Areas</h3>
+            <p class="text-gray-300">IL • KY • VA • WV • MO • LA</p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-3">Our Mission</h3>
+            <p class="text-gray-300">Spreading Christ's love through service</p>
+          </div>
+        </div>
+        <div class="border-t border-gray-700 pt-4">
+          <p>&copy; 2024 Christ Care Ministry. All rights reserved.</p>
+          <p class="text-gray-400 text-sm mt-2">Bringing hope and nourishment to communities in need</p>
+        </div>
+      </div>
     </footer>
+
+    <!-- Smooth Scroll Script -->
+    <script>
+      // Add fade-in animation on scroll
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('fade-in');
+          }
+        });
+      }, observerOptions);
+
+      // Observe all sections
+      document.querySelectorAll('section').forEach(section => {
+        observer.observe(section);
+      });
+    </script>
   </body>
 </html>
