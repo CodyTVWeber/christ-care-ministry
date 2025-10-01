@@ -22,26 +22,32 @@
     <meta property="og:description" content="Request food and gifts from our current inventory to support your community" />
     <meta property="og:type" content="website" />
   </head>
-  <body class="bg-gray-50 text-gray-800">
-    <!-- Enhanced Navigation -->
-    <nav class="bg-white shadow-md">
-      <div class="container mx-auto p-4">
-        <div class="flex items-center justify-between">
-          <div class="flex items-center space-x-2">
-            <div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center">
-              <span class="text-white font-bold text-sm">CC</span>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div style="max-width: 1200px; margin: 0 auto; padding: 1rem;">
+        <div style="display: flex; align-items: center; justify-content: space-between;">
+          <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <div style="width: 2rem; height: 2rem; background-color: #2563eb; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+              <span style="color: white; font-weight: bold; font-size: 0.875rem;">CC</span>
             </div>
-            <span class="font-semibold text-gray-800">Christ Care Ministry</span>
+            <span style="font-weight: 600; color: #1f2937;">Christ Care Ministry</span>
           </div>
-          <ul class="flex space-x-6">
+          <ul style="display: flex; gap: 1.5rem;">
             <li>
-              <a href="index.html" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md">
-                🏠 Home
+              <a href="index.html" style="padding: 0.5rem 0.75rem; border-radius: 0.375rem; display: flex; align-items: center; gap: 0.5rem;">
+                <svg style="width: 1rem; height: 1rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+                </svg>
+                Home
               </a>
             </li>
             <li>
-              <a href="food.html" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md">
-                🍞 Food & Gifts
+              <a href="food.html" style="padding: 0.5rem 0.75rem; border-radius: 0.375rem; display: flex; align-items: center; gap: 0.5rem;">
+                <svg style="width: 1rem; height: 1rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                </svg>
+                Food & Gifts
               </a>
             </li>
           </ul>
@@ -49,128 +55,173 @@
       </div>
     </nav>
 
-    <main class="container mx-auto my-8 px-4">
+    <main style="max-width: 1200px; margin: 2rem auto; padding: 0 1rem;">
       <!-- Hero Section for Food Page -->
-      <section class="hero bg-white p-12 rounded-xl shadow-lg mb-12 text-center fade-in">
+      <section class="hero fade-in">
         <header>
-          <h1 class="text-5xl font-bold text-gray-800 mb-6">Food & Gifts</h1>
-          <p class="text-xl mb-8 text-gray-700 leading-relaxed max-w-3xl mx-auto">
+          <h2>Food & Gifts</h2>
+          <p>
             We run as a non-profit organization, and every pallet and truck delivery incurs monetary
             costs. Your donations are greatly appreciated and help us continue serving communities in need.
           </p>
-          
+
           <!-- Donation Information Card -->
-          <div class="bg-gradient-to-r from-green-50 to-blue-50 p-6 rounded-xl border-2 border-green-200 mb-8 max-w-2xl mx-auto">
-            <div class="flex items-center justify-center mb-4">
-              <div class="text-3xl mr-3">💝</div>
-              <h3 class="text-xl font-semibold text-gray-800">Support Our Mission</h3>
+          <div style="background: linear-gradient(135deg, #f0fdf4 0%, #eff6ff 100%); padding: 1.5rem; border-radius: 0.75rem; border: 2px solid #bbf7d0; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+            <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+              <div style="margin-right: 0.75rem;">
+                <svg style="width: 2rem; height: 2rem; color: #166534;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                </svg>
+              </div>
+              <h3 style="font-size: 1.25rem; font-weight: 600;">Support Our Mission</h3>
             </div>
-            <p class="text-gray-700 mb-4">
+            <p style="margin-bottom: 1rem;">
               Every donation helps us reach more families and communities with essential supplies and hope.
             </p>
-            <div class="flex flex-wrap gap-2 justify-center text-sm text-gray-600">
-              <span class="bg-white px-3 py-1 rounded-full">🚚 Truck Fuel</span>
-              <span class="bg-white px-3 py-1 rounded-full">📦 Packaging</span>
-              <span class="bg-white px-3 py-1 rounded-full">🍞 Additional Food</span>
-              <span class="bg-white px-3 py-1 rounded-full">🎁 Gift Supplies</span>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; font-size: 0.875rem;">
+              <span style="background-color: white; padding: 0.25rem 0.75rem; border-radius: 9999px; display: flex; align-items: center; gap: 0.25rem;">
+                <svg style="width: 0.75rem; height: 0.75rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"></path>
+                </svg>
+                Truck Fuel
+              </span>
+              <span style="background-color: white; padding: 0.25rem 0.75rem; border-radius: 9999px; display: flex; align-items: center; gap: 0.25rem;">
+                <svg style="width: 0.75rem; height: 0.75rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                </svg>
+                Packaging
+              </span>
+              <span style="background-color: white; padding: 0.25rem 0.75rem; border-radius: 9999px; display: flex; align-items: center; gap: 0.25rem;">
+                <svg style="width: 0.75rem; height: 0.75rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                </svg>
+                Additional Food
+              </span>
+              <span style="background-color: white; padding: 0.25rem 0.75rem; border-radius: 9999px; display: flex; align-items: center; gap: 0.25rem;">
+                <svg style="width: 0.75rem; height: 0.75rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path>
+                </svg>
+                Gift Supplies
+              </span>
             </div>
           </div>
         </header>
       </section>
 
       <!-- Current Inventory Section -->
-      <section class="bg-white p-10 rounded-xl shadow-lg mb-12 fade-in">
-        <div class="text-center mb-8">
-          <h2 class="text-4xl font-semibold mb-4 text-gray-800">Currently Available</h2>
-          <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+      <section class="fade-in">
+        <div style="text-align: center; margin-bottom: 2rem;">
+          <h2>Currently Available</h2>
+          <p style="max-width: 600px; margin: 0 auto 2rem;">
             Browse our current inventory below and use the action buttons to request items or support our ministry.
           </p>
         </div>
-        
+
         <!-- Action Buttons -->
-        <div class="flex flex-col lg:flex-row gap-4 justify-center mb-8 max-w-4xl mx-auto">
+        <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin-bottom: 2rem; max-width: 800px; margin-left: auto; margin-right: auto;">
           <!-- Request Current Food Button -->
           <a
             href="mailto:deanjweber2000@yahoo.com?subject=Request%20for%20Food&body=Hello%20Rev.%20Dean%2C%0A%0AI%20would%20like%20to%20request%20the%20following%20food%3A%0A-%20%5BItem%201%5D%0A-%20%5BItem%202%5D%0A%0AI%20am%20also%20interested%20in%20donating%3A%0A-%20%5BMonetary%20Donation%5D%0A-%20%5BFood%5D%0A-%20%5BSupplies%5D%0A-%20%5BSomething%20Else%5D%0A%0A%0APlease%20contact%20me%20at%3A%0AName%3A%20%5BYour%20Name%5D%0APhone%3A%20%5BYour%20Phone%20Number%5D%0AEmail%3A%20%5BYour%20Email%5D%0A%0AAddress%3A%20%5BYour%20Address%5D%0ADelivery%20Address%20(if%20different)%3A%20%5BDelivery%20Address%5D%0A%0AThank%20you%20for%20your%20service%21%0A%0ABest%20regards%2C%0A%5BYour%20Name%5D"
-            class="btn btn-blue px-6 py-4 rounded-xl text-lg font-semibold inline-flex items-center justify-center gap-3 flex-1 min-w-0 transition-all duration-300"
+            class="btn btn-blue"
+            style="padding: 1rem 1.5rem; border-radius: 0.75rem; font-size: 1.125rem; font-weight: 600; display: inline-flex; align-items: center; justify-content: center; gap: 0.75rem; width: 100%; max-width: 400px;"
           >
-            <span class="text-2xl">🍞</span>
-            <div class="text-left">
+            <svg style="width: 1.5rem; height: 1.5rem; flex-shrink: 0;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+            </svg>
+            <div style="text-align: left;">
               <div>Request Current Food/Gifts</div>
-              <div class="text-sm opacity-90 font-normal">Available in inventory</div>
+              <div style="font-size: 0.875rem; opacity: 0.9; font-weight: 400;">Available in inventory</div>
             </div>
           </a>
 
           <!-- Donations Button -->
           <a
             href="mailto:deanjweber2000@yahoo.com?subject=Supporting%20Christ%20Care%20Ministry&body=Hello%20Rev.%20Dean%2C%0A%0AI%20would%20like%20to%20make%20a%20donation%20to%20support%20your%20ministry.%0A%0AI%20would%20like%20to%20donate%3A%0A-%20%5BMonetary%20Donation%5D%0A-%20%5BFood%5D%0A-%20%5BSupplies%5D%0A-%20%5BSomething%20Else%5D%0A%0A%0APlease%20contact%20me%20at%3A%0AName%3A%20%5BYour%20Name%5D%0APhone%3A%20%5BYour%20Phone%20Number%5D%0AEmail%3A%20%5BYour%20Email%5D%0A%0AAddress%3A%20%5BYour%20Address%5D%0A%0AThank%20you%20for%20the%20work%20you%20do%21%0A%0ABest%20regards%2C%0A%5BYour%20Name%5D"
-            class="btn btn-green px-6 py-4 rounded-xl text-lg font-semibold inline-flex items-center justify-center gap-3 flex-1 min-w-0 transition-all duration-300"
+            class="btn btn-green"
+            style="padding: 1rem 1.5rem; border-radius: 0.75rem; font-size: 1.125rem; font-weight: 600; display: inline-flex; align-items: center; justify-content: center; gap: 0.75rem; width: 100%; max-width: 400px;"
           >
-            <span class="text-2xl">💝</span>
-            <div class="text-left">
+            <svg style="width: 1.5rem; height: 1.5rem; flex-shrink: 0;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+            </svg>
+            <div style="text-align: left;">
               <div>Support Our Ministry</div>
-              <div class="text-sm opacity-90 font-normal">Make a donation</div>
+              <div style="font-size: 0.875rem; opacity: 0.9; font-weight: 400;">Make a donation</div>
             </div>
           </a>
 
           <!-- Request Special Items Button -->
           <a
             href="mailto:deanjweber2000@yahoo.com?subject=Request%20for%20Specific%20Food%20Items&body=Hello%20Rev.%20Dean%2C%0A%0AI%20am%20looking%20for%20specific%20food%20items%20that%20may%20not%20be%20listed%3A%0A-%20%5BItem%201%5D%0A-%20%5BItem%202%5D%0A%0AI%20am%20also%20interested%20in%20donating%3A%0A-%20%5BMonetary%20Donation%5D%0A-%20%5BFood%5D%0A-%20%5BSupplies%5D%0A-%20%5BSomething%20Else%5D%0A%0A%0APlease%20contact%20me%20at%3A%0AName%3A%20%5BYour%20Name%5D%0APhone%3A%20%5BYour%20Phone%20Number%5D%0AEmail%3A%20%5BYour%20Email%5D%0A%0AAddress%3A%20%5BYour%20Address%5D%0ADelivery%20Address%20(if%20different)%3A%20%5BDelivery%20Address%5D%0A%0AThank%20you%20for%20your%20service%21%0A%0ABest%20regards%2C%0A%5BYour%20Name%5D"
-            class="btn btn-yellow px-6 py-4 rounded-xl text-lg font-semibold inline-flex items-center justify-center gap-3 flex-1 min-w-0 transition-all duration-300"
+            style="display: inline-block; padding: 1rem 1.5rem; border-radius: 0.75rem; font-size: 1.125rem; font-weight: 600; text-decoration: none; background-color: #f59e0b; color: white; border: none; cursor: pointer; transition: all 0.2s ease; display: inline-flex; align-items: center; justify-content: center; gap: 0.75rem; width: 100%; max-width: 400px;"
           >
-            <span class="text-2xl">🔍</span>
-            <div class="text-left">
+            <svg style="width: 1.5rem; height: 1.5rem; flex-shrink: 0;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+            </svg>
+            <div style="text-align: left;">
               <div>Request Unavailable Items</div>
-              <div class="text-sm opacity-90 font-normal">Special requests</div>
+              <div style="font-size: 0.875rem; opacity: 0.9; font-weight: 400;">Special requests</div>
             </div>
           </a>
         </div>
 
         <!-- Inventory Display -->
-        <div class="bg-gray-50 p-6 rounded-xl border-2 border-gray-200">
-          <div class="flex items-center justify-center mb-6">
-            <div class="text-2xl mr-3">📋</div>
-            <h3 class="text-2xl font-semibold text-gray-800">Live Inventory</h3>
+        <div style="background-color: #f9fafb; padding: 1.5rem; border-radius: 0.75rem; border: 2px solid #e5e7eb;">
+          <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+            <div style="margin-right: 0.75rem;">
+              <svg style="width: 2rem; height: 2rem; color: #374151;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+              </svg>
+            </div>
+            <h3 style="font-size: 1.5rem; font-weight: 600;">Live Inventory</h3>
           </div>
-          <div class="bg-white rounded-lg shadow-inner p-4">
+          <div style="background-color: white; border-radius: 0.5rem; box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); padding: 1rem;">
             <iframe
               width="100%"
               height="600px"
               src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRS_DzD7LvWpLIqyNnnKD_PiV7KP-Mb4K9FiwYDRhB9ygGt92dFIKqQtqMuWsv3gDaqljJJg7EFy-w4/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
-              class="rounded-lg"
+              style="border-radius: 0.5rem;"
               title="Current Food and Gift Inventory"
             ></iframe>
           </div>
-          <div class="mt-4 text-center">
-            <p class="text-sm text-gray-600">
-              📊 Inventory is updated regularly. Items shown may vary based on availability and recent deliveries.
+          <div style="margin-top: 1rem; text-align: center;">
+            <p style="font-size: 0.875rem;">
+              <svg style="width: 1rem; height: 1rem; display: inline; margin-right: 0.25rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+              </svg>
+              Inventory is updated regularly. Items shown may vary based on availability and recent deliveries.
             </p>
           </div>
         </div>
       </section>
 
       <!-- How It Works Section -->
-      <section class="bg-white p-10 rounded-xl shadow-lg mb-12 fade-in">
-        <h2 class="text-4xl font-semibold mb-8 text-center">How It Works</h2>
-        <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-          <div class="text-center p-6 bg-blue-50 rounded-xl">
-            <div class="text-4xl mb-4">1️⃣</div>
-            <h3 class="text-xl font-semibold mb-3 text-gray-800">Browse & Request</h3>
-            <p class="text-gray-600">
+      <section class="fade-in">
+        <h2 style="text-align: center; margin-bottom: 2rem;">How It Works</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; max-width: 800px; margin: 0 auto;">
+          <div style="text-align: center; padding: 1.5rem; background-color: #eff6ff; border-radius: 0.75rem;">
+            <div style="margin-bottom: 1rem; display: flex; justify-content: center;">
+              <div style="width: 3rem; height: 3rem; background-color: #3b82f6; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 600;">1</div>
+            </div>
+            <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 0.75rem;">Browse & Request</h3>
+            <p>
               Check our live inventory and click the appropriate button to request items via email.
             </p>
           </div>
-          <div class="text-center p-6 bg-green-50 rounded-xl">
-            <div class="text-4xl mb-4">2️⃣</div>
-            <h3 class="text-xl font-semibold mb-3 text-gray-800">We Respond</h3>
-            <p class="text-gray-600">
+          <div style="text-align: center; padding: 1.5rem; background-color: #f0fdf4; border-radius: 0.75rem;">
+            <div style="margin-bottom: 1rem; display: flex; justify-content: center;">
+              <div style="width: 3rem; height: 3rem; background-color: #16a34a; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 600;">2</div>
+            </div>
+            <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 0.75rem;">We Respond</h3>
+            <p>
               Rev. Dean will contact you to confirm availability and arrange delivery details.
             </p>
           </div>
-          <div class="text-center p-6 bg-orange-50 rounded-xl">
-            <div class="text-4xl mb-4">3️⃣</div>
-            <h3 class="text-xl font-semibold mb-3 text-gray-800">Delivery</h3>
-            <p class="text-gray-600">
+          <div style="text-align: center; padding: 1.5rem; background-color: #fef3c7; border-radius: 0.75rem;">
+            <div style="margin-bottom: 1rem; display: flex; justify-content: center;">
+              <div style="width: 3rem; height: 3rem; background-color: #ea580c; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 600;">3</div>
+            </div>
+            <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 0.75rem;">Delivery</h3>
+            <p>
               Our trucks deliver food and gifts directly to your location or designated pickup point.
             </p>
           </div>
@@ -178,54 +229,65 @@
       </section>
 
       <!-- Contact Information -->
-      <section class="bg-gradient-to-r from-blue-50 to-green-50 p-10 rounded-xl shadow-lg mb-12 fade-in">
-        <div class="text-center max-w-2xl mx-auto">
-          <h2 class="text-3xl font-semibold mb-6 text-gray-800">Need Help?</h2>
-          <p class="text-lg mb-6 text-gray-700">
+      <section class="fade-in" style="background: linear-gradient(135deg, #eff6ff 0%, #f0fdf4 100%); padding: 2.5rem; border-radius: 0.75rem;">
+        <div style="text-align: center; max-width: 600px; margin: 0 auto;">
+          <h2 style="margin-bottom: 1.5rem;">Need Help?</h2>
+          <p style="margin-bottom: 1.5rem;">
             Have questions about our services or need assistance with your request? We're here to help!
           </p>
-          <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="mailto:deanjweber2000@yahoo.com" 
-              class="btn btn-blue px-6 py-3 rounded-lg text-lg inline-flex items-center justify-center gap-2"
+          <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
+            <a
+              href="mailto:deanjweber2000@yahoo.com"
+              class="btn btn-blue"
+              style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;"
             >
-              📧 Email Rev. Dean
+              <svg style="width: 1.25rem; height: 1.25rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+              </svg>
+              Email Rev. Dean
             </a>
-            <a 
-              href="index.html" 
-              class="btn btn-green px-6 py-3 rounded-lg text-lg inline-flex items-center justify-center gap-2"
+            <a
+              href="index.html"
+              class="btn btn-green"
+              style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;"
             >
-              🏠 Back to Home
+              <svg style="width: 1.25rem; height: 1.25rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+              </svg>
+              Back to Home
             </a>
           </div>
         </div>
       </section>
     </main>
 
-    <!-- Enhanced Footer -->
-    <footer class="bg-gradient-to-r from-gray-800 to-gray-900 text-white text-center py-8 shadow-lg mt-12">
-      <div class="container mx-auto px-4">
-        <div class="grid md:grid-cols-3 gap-8 mb-6">
+    <!-- Footer -->
+    <footer>
+      <div style="max-width: 1200px; margin: 0 auto; padding: 1rem;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-bottom: 1rem;">
           <div>
-            <h3 class="text-lg font-semibold mb-3">Contact Us</h3>
-            <p class="text-gray-300">
-              📧 <a href="mailto:deanjweber2000@yahoo.com" class="hover:text-blue-300 transition-colors">
+            <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem;">Contact Us</h3>
+            <div style="display: flex; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.5rem;">
+              <svg style="width: 1.25rem; height: 1.25rem; flex-shrink: 0; margin-top: 0.125rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+              </svg>
+              <a href="mailto:deanjweber2000@yahoo.com" style="color: #2563eb; text-decoration: none; word-break: break-all;">
                 deanjweber2000@yahoo.com
               </a>
-            </p>
+            </div>
           </div>
           <div>
-            <h3 class="text-lg font-semibold mb-3">Service Areas</h3>
-            <p class="text-gray-300">IL • KY • VA • WV • MO • LA</p>
+            <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem;">Service Areas</h3>
+            <p>IL • KY • VA • WV • MO • LA</p>
           </div>
           <div>
-            <h3 class="text-lg font-semibold mb-3">Our Mission</h3>
-            <p class="text-gray-300">Spreading Christ's love through service</p>
+            <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem;">Our Mission</h3>
+            <p>Spreading Christ's love through service</p>
           </div>
         </div>
-        <div class="border-t border-gray-700 pt-4">
+        <div style="border-top: 1px solid #e5e7eb; padding-top: 0.75rem;">
           <p>&copy; 2024 Christ Care Ministry. All rights reserved.</p>
-          <p class="text-gray-400 text-sm mt-2">Bringing hope and nourishment to communities in need</p>
+          <p style="font-size: 0.875rem; margin-top: 0.5rem;">Bringing hope and nourishment to communities in need</p>
         </div>
       </div>
     </footer>
