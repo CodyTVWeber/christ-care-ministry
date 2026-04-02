@@ -1,418 +1,438 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Christ Care Ministry - Bringing Hope and Nourishment to Communities</title>
-    <meta name="description" content="Christ Care Ministry delivers food and essential items to communities in need across IL, KY, VA, WV, MO, LA and beyond. Join us in spreading Christ's love through service." />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
-    <!-- Open Graph Meta Tags for Social Sharing -->
-    <meta property="og:title" content="Christ Care Ministry - Bringing Hope and Nourishment" />
-    <meta property="og:description" content="Delivering food and essential items to communities in need" />
-    <meta property="og:type" content="website" />
-  </head>
-  <body>
-    <!-- Navigation -->
-    <nav>
-      <div style="max-width: 1200px; margin: 0 auto; padding: 1rem;">
-        <div style="display: flex; align-items: center; justify-content: space-between;">
-          <div style="display: flex; align-items: center; gap: 0.75rem;">
-            <div style="width: 3rem; height: 3rem; min-width: 3rem; background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4); position: relative; overflow: hidden;">
-              <div style="position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.3), transparent); animation: rotate 3s linear infinite;"></div>
-              <span style="color: white; font-weight: bold; font-size: 1.125rem; position: relative; z-index: 1;">CC</span>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Christ Care Ministry - Bringing Hope and Nourishment to Communities</title>
+  <meta name="description"
+    content="Christ Care Ministry delivers food and essential items to communities in need across IL, KY, VA, WV, MO, LA and beyond. Join us in spreading Christ's love through service." />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+  <!-- Open Graph Meta Tags for Social Sharing -->
+  <meta property="og:title" content="Christ Care Ministry - Bringing Hope and Nourishment" />
+  <meta property="og:description" content="Delivering food and essential items to communities in need" />
+  <meta property="og:type" content="website" />
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div style="max-width: 1200px; margin: 0 auto; padding: 1rem;">
+      <div style="display: flex; align-items: center; justify-content: space-between;">
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <div
+            style="width: 3rem; height: 3rem; min-width: 3rem; background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4); position: relative; overflow: hidden;">
+            <div
+              style="position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.3), transparent); animation: rotate 3s linear infinite;">
             </div>
-            <span style="font-weight: 700; color: #1f2937; font-size: 1.125rem; background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Christ Care Ministry</span>
+            <span
+              style="color: white; font-weight: bold; font-size: 1.125rem; position: relative; z-index: 1;">CC</span>
           </div>
-          
-          <!-- Desktop Navigation -->
-          <ul class="nav-desktop" style="display: flex; gap: 1.5rem;">
-            <li>
-              <a href="index.html" style="padding: 0.5rem 0.75rem; border-radius: 0.375rem; display: flex; align-items: center; gap: 0.5rem;">
-                <svg style="width: 1rem; height: 1rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
-                </svg>
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="food.html" style="padding: 0.5rem 0.75rem; border-radius: 0.375rem; display: flex; align-items: center; gap: 0.5rem;">
-                <svg style="width: 1rem; height: 1rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
-                </svg>
-                Food & Gifts
-              </a>
-            </li>
-          </ul>
-          
-          <!-- Mobile Hamburger -->
-          <button class="mobile-menu-toggle" onclick="toggleMobileMenu()" style="display: none; background: none; border: none; cursor: pointer; padding: 0.5rem;">
-            <svg style="width: 1.75rem; height: 1.75rem; color: #1f2937;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
-          </button>
+          <span
+            style="font-weight: 700; color: #1f2937; font-size: 1.125rem; background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Christ
+            Care Ministry</span>
         </div>
-        
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="mobile-menu" style="display: none; margin-top: 1rem; flex-direction: column; gap: 0.5rem;">
-          <a href="index.html" style="padding: 0.75rem 1rem; border-radius: 0.5rem; display: flex; align-items: center; gap: 0.75rem; background-color: #f3f4f6; font-weight: 500;">
-            <svg style="width: 1.25rem; height: 1.25rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
-            </svg>
-            Home
-          </a>
-          <a href="food.html" style="padding: 0.75rem 1rem; border-radius: 0.5rem; display: flex; align-items: center; gap: 0.75rem; background-color: #f3f4f6; font-weight: 500;">
-            <svg style="width: 1.25rem; height: 1.25rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
-            </svg>
-            Food & Gifts
-          </a>
-        </div>
+
+        <!-- Desktop Navigation -->
+        <ul class="nav-desktop" style="display: flex; gap: 1.5rem;">
+          <li>
+            <a href="index.html"
+              style="padding: 0.5rem 0.75rem; border-radius: 0.375rem; display: flex; align-items: center; gap: 0.5rem;">
+              <svg style="width: 1rem; height: 1rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6">
+                </path>
+              </svg>
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="food.html"
+              style="padding: 0.5rem 0.75rem; border-radius: 0.375rem; display: flex; align-items: center; gap: 0.5rem;">
+              <svg style="width: 1rem; height: 1rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253">
+                </path>
+              </svg>
+              Food & Gifts
+            </a>
+          </li>
+        </ul>
+
+        <!-- Mobile Hamburger -->
+        <button class="mobile-menu-toggle" onclick="toggleMobileMenu()"
+          style="display: none; background: none; border: none; cursor: pointer; padding: 0.5rem;">
+          <svg style="width: 1.75rem; height: 1.75rem; color: #1f2937;" fill="none" stroke="currentColor"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
       </div>
-    </nav>
-    
-    <script>
-      function toggleMobileMenu() {
-        const menu = document.getElementById('mobile-menu');
-        if (menu.style.display === 'none' || menu.style.display === '') {
-          menu.style.display = 'flex';
-        } else {
-          menu.style.display = 'none';
-        }
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="mobile-menu"
+        style="display: none; margin-top: 1rem; flex-direction: column; gap: 0.5rem;">
+        <a href="index.html"
+          style="padding: 0.75rem 1rem; border-radius: 0.5rem; display: flex; align-items: center; gap: 0.75rem; background-color: #f3f4f6; font-weight: 500;">
+          <svg style="width: 1.25rem; height: 1.25rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6">
+            </path>
+          </svg>
+          Home
+        </a>
+        <a href="food.html"
+          style="padding: 0.75rem 1rem; border-radius: 0.5rem; display: flex; align-items: center; gap: 0.75rem; background-color: #f3f4f6; font-weight: 500;">
+          <svg style="width: 1.25rem; height: 1.25rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253">
+            </path>
+          </svg>
+          Food & Gifts
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <script>
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobile-menu');
+      if (menu.style.display === 'none' || menu.style.display === '') {
+        menu.style.display = 'flex';
+      } else {
+        menu.style.display = 'none';
       }
-    </script>
+    }
+  </script>
 
-    <main style="max-width: 1200px; margin: 2rem auto; padding: 0 1rem;">
-      <!-- Hero Section -->
-      <section class="hero fade-in">
-        <header>
-          <h1>Christ Care Ministry</h1>
-          <p>
-            We believe the good Lord is giving us the blessings to go out and be a
-            blessing to others. Join us in spreading hope and nourishment to communities in need.
-          </p>
-          <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin-bottom: 2rem;">
-            <a href="food.html" class="btn btn-blue" style="display: inline-flex; align-items: center; gap: 0.5rem;">
-              <svg style="width: 1.25rem; height: 1.25rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
-              </svg>
-              View Available Food
-            </a>
-            <a href="mailto:deanjweber2000@yahoo.com?subject=Supporting%20Christ%20Care%20Ministry&body=Hello%20Rev.%20Dean%2C%0A%0AI%20would%20like%20to%20make%20a%20donation%20to%20support%20Christ%20Care%20Ministry.%0A%0AI%20would%20like%20to%20donate%3A%0A-%20%5BMonetary%20Donation%5D%0A-%20%5BFood%5D%0A-%20%5BSupplies%5D%0A-%20%5BOther%5D%0A%0A%0APlease%20contact%20me%20at%3A%0AName%3A%20%5BYour%20Name%5D%0APhone%3A%20%5BYour%20Phone%20Number%5D%0AEmail%3A%20%5BYour%20Email%5D%0A%0AAddress%3A%20%5BYour%20Address%5D%0A%0AThank%20you%20for%20your%20amazing%20work%20serving%20communities%20in%20need%21%0A%0ABest%20regards%2C%0A%5BYour%20Name%5D"
-               class="btn btn-green donation-cta" style="display: inline-flex; align-items: center; gap: 0.5rem; animation: pulse 2s ease-in-out infinite;">
-              <svg style="width: 1.25rem; height: 1.25rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-              </svg>
-              Support Our Ministry
-            </a>
-          </div>
-          
-          <!-- Donation Highlight Banner -->
-          <div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border: 2px solid #fbbf24; border-radius: 12px; padding: 0.75rem 1rem; margin-bottom: 2rem; box-shadow: 0 8px 24px rgba(251, 191, 36, 0.3);">
-            <div style="display: flex; align-items: center; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
-              <svg style="width: 2rem; height: 2rem; color: #92400e; flex-shrink: 0;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-              </svg>
-              <div style="text-align: center;">
-                <p style="font-weight: 700; font-size: 1.125rem; color: #78350f; margin-bottom: 0.25rem;">Your Donations Make a Difference</p>
-                <p style="font-size: 0.95rem; color: #92400e; margin-bottom: 0.25rem;">Every contribution helps us deliver food and essentials to families in need</p>
-              </div>
-            </div>
-          </div>
-        </header>
-        <div style="margin-top: 2rem;">
-          <picture>
-            <source media="(max-width: 768px)" srcset="img/ChristCareTruckPicture-mobile.webp">
-            <img
-              class="softened-image"
-              style="max-width: 600px; width: 100%; display: block; margin: 0 auto;"
-              src="img/ChristCareTruckPicture.webp"
-              alt="Christ Care Ministry Truck delivering hope to communities"
-            />
-          </picture>
-        </div>
-      </section>
-
-      <!-- About Rev. Dean Weber -->
-      <section class="fade-in">
-        <div style="display: grid; grid-template-columns: 1fr; gap: 2rem; align-items: center;">
-          <div>
-            <h2 style="text-align: center;">Rev. Dean Weber</h2>
-            <p>
-              I am Rev. Dean Weber, dedicated to helping more people, churches, and
-              organizations through our ministry. Our mission extends as far as our trucks and team can reach.
-            </p>
-            <p>
-              We operate with <strong>two box trucks</strong> to maximize our outreach and service
-              capabilities, ensuring we can deliver hope and essential supplies to communities across multiple states.
-            </p>
-            <div style="margin-top: 1.5rem; padding: 1rem; background-color: #eff6ff; border-radius: 0.5rem; border-left: 4px solid #3b82f6;">
-              <p style="color: #1e40af; font-weight: 500; display: flex; align-items: center; gap: 0.5rem;">
-                <svg style="width: 1.25rem; height: 1.25rem; flex-shrink: 0;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                </svg>
-                Serving: IL, KY, VA, WV, MO, LA, and beyond
-              </p>
-            </div>
-          </div>
-          <div style="text-align: center;">
-            <picture>
-              <source media="(max-width: 768px)" srcset="img/DeanPicture-mobile.webp">
-              <img
-                class="softened-image"
-                style="max-width: 400px; width: 100%; display: block; margin: 0 auto;"
-                src="img/DeanPicture.webp"
-                alt="Rev. Dean Weber - Founder of Christ Care Ministry"
-              />
-            </picture>
-          </div>
-        </div>
-      </section>
-
-      <!-- Mission Section -->
-      <section class="mission fade-in">
-        <h2>Our Mission</h2>
-        <div style="max-width: 800px; margin: 0 auto;">
-          <p style="margin-bottom: 2rem;">
-            Christ Care Ministry is a Christian organization dedicated to
-            delivering food and essential items to food pantries and individuals
-            in need.
-          </p>
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
-            <div style="text-align: center; padding: 1.5rem; background-color: #f0fdf4; border-radius: 0.5rem;">
-              <div style="margin-bottom: 1rem; display: flex; justify-content: center;">
-                <svg style="width: 3rem; height: 3rem; color: #166534;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12l2 2 4-4"></path>
-                </svg>
-              </div>
-              <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 0.5rem;">Faith-Driven</h3>
-              <p>Guided by Christian values and the call to serve others with love and compassion.</p>
-            </div>
-            <div style="text-align: center; padding: 1.5rem; background-color: #eff6ff; border-radius: 0.5rem;">
-              <div style="margin-bottom: 1rem; display: flex; justify-content: center;">
-                <svg style="width: 3rem; height: 3rem; color: #1e40af;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"></path>
-                </svg>
-              </div>
-              <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 0.5rem;">Direct Delivery</h3>
-              <p>Two box trucks ensuring efficient delivery of food and supplies to those who need them most.</p>
-            </div>
-            <div style="text-align: center; padding: 1.5rem; background-color: #fef3c7; border-radius: 0.5rem;">
-              <div style="margin-bottom: 1rem; display: flex; justify-content: center;">
-                <svg style="width: 3rem; height: 3rem; color: #92400e;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
-                </svg>
-              </div>
-              <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 0.5rem;">Community Impact</h3>
-              <p>Spreading Christ's love and support across multiple states and communities.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Services Section -->
-      <section class="fade-in">
-        <h2 style="text-align: center; margin-bottom: 2rem;">Our Services</h2>
-        <p style="text-align: center; margin-bottom: 2rem; max-width: 800px; margin-left: auto; margin-right: auto;">
-          We provide essential items such as food, household supplies, and
-          Christmas gifts to those in need. Our dedicated team travels across multiple states,
-          reaching communities and spreading Christ's love and support.
+  <main style="max-width: 1200px; margin: 2rem auto; padding: 0 1rem;">
+    <!-- Hero Section -->
+    <section class="hero fade-in">
+      <header>
+        <h1>Christ Care Ministry</h1>
+        <p>
+          We believe the good Lord is giving us the blessings to go out and be a
+          blessing to others. Join us in spreading hope and nourishment to communities in need.
         </p>
-
-        <div class="image-grid">
-          <div>
-            <picture>
-              <source media="(max-width: 768px)" srcset="img/TwoTrucksFrontView-mobile.webp">
-              <img
-                class="softened-image"
-                src="img/TwoTrucksFrontView.webp"
-                alt="Two delivery trucks ready for service - Front view of our fleet"
-              />
-            </picture>
-          </div>
-
-          <div>
-            <picture>
-              <source media="(max-width: 768px)" srcset="img/FullTrucksWithDrinksSlantedView-mobile.webp">
-              <img
-                class="softened-image"
-                src="img/FullTrucksWithDrinksSlantedView.webp"
-                alt="Multiple trucks loaded with drinks - Large scale beverage distribution"
-              />
-            </picture>
-          </div>
-
-          <div>
-            <picture>
-              <source media="(max-width: 768px)" srcset="img/WholeFoodDelivery-mobile.webp">
-              <img
-                class="softened-image"
-                src="img/WholeFoodDelivery.webp"
-                alt="Whole Food Delivery - Nutritious meals for families in need"
-              />
-            </picture>
-          </div>
-
-          <div>
-            <picture>
-              <source media="(max-width: 768px)" srcset="img/ChristmasGifts-mobile.webp">
-              <img
-                class="softened-image"
-                src="img/ChristmasGifts.webp"
-                alt="Christmas Gifts - Bringing joy during the holiday season"
-              />
-            </picture>
-          </div>
-
-          <div>
-            <picture>
-              <source media="(max-width: 768px)" srcset="img/FullTruckWithDrinks-mobile.webp">
-              <img
-                class="softened-image"
-                src="img/FullTruckWithDrinks.webp"
-                alt="Truck fully loaded with beverage supplies - Efficient delivery service"
-              />
-            </picture>
-          </div>
-
-          <div>
-            <picture>
-              <source media="(max-width: 768px)" srcset="img/TwoTrucksView-mobile.webp">
-              <img
-                class="softened-image"
-                src="img/TwoTrucksView.webp"
-                alt="Dual truck operation - Comprehensive delivery capabilities"
-              />
-            </picture>
-          </div>
-
-          <div>
-            <picture>
-              <source media="(max-width: 768px)" srcset="img/BoxTruckWith3Pallets-mobile.webp">
-              <img
-                class="softened-image"
-                src="img/BoxTruckWith3Pallets.webp"
-                alt="Box Truck with 3 Pallets - Large scale delivery operations"
-              />
-            </picture>
-          </div>
-
-          <div>
-            <picture>
-              <source media="(max-width: 768px)" srcset="img/BoxTruckWithPallet-mobile.webp">
-              <img
-                class="softened-image"
-                src="img/BoxTruckWithPallet.webp"
-                alt="Box Truck with Pallet - Efficient distribution system"
-              />
-            </picture>
-          </div>
-
-          <div>
-            <picture>
-              <source media="(max-width: 768px)" srcset="img/BoxesDelivery-mobile.webp">
-              <img
-                class="softened-image"
-                src="img/BoxesDelivery.webp"
-                alt="Boxes Delivery - Organized distribution of essential supplies"
-              />
-            </picture>
-          </div>
-
-          <div>
-            <picture>
-              <source media="(max-width: 768px)" srcset="img/Pallets-mobile.webp">
-              <img
-                class="softened-image"
-                src="img/Pallets.webp"
-                alt="Pallets - Bulk food and supply organization"
-              />
-            </picture>
-          </div>
-
-          <div>
-            <picture>
-              <source media="(max-width: 768px)" srcset="img/Christmas+FoodDelivery-mobile.webp">
-              <img
-                class="softened-image"
-                src="img/Christmas+FoodDelivery.webp"
-                alt="Christmas and Food Delivery - Holiday spirit and nourishment combined"
-              />
-            </picture>
-          </div>
-        </div>
-
-        <div style="margin-top: 3rem; text-align: center;">
+        <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin-bottom: 2rem;">
           <a href="food.html" class="btn btn-blue" style="display: inline-flex; align-items: center; gap: 0.5rem;">
             <svg style="width: 1.25rem; height: 1.25rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253">
+              </path>
             </svg>
-            View Current Food Availability
+            View Available Food
+          </a>
+          <a href="mailto:deanjweber2000@yahoo.com?subject=Supporting%20Christ%20Care%20Ministry&body=Hello%20Rev.%20Dean%2C%0A%0AI%20would%20like%20to%20make%20a%20donation%20to%20support%20Christ%20Care%20Ministry.%0A%0AI%20would%20like%20to%20donate%3A%0A-%20%5BMonetary%20Donation%5D%0A-%20%5BFood%5D%0A-%20%5BSupplies%5D%0A-%20%5BOther%5D%0A%0A%0APlease%20contact%20me%20at%3A%0AName%3A%20%5BYour%20Name%5D%0APhone%3A%20%5BYour%20Phone%20Number%5D%0AEmail%3A%20%5BYour%20Email%5D%0A%0AAddress%3A%20%5BYour%20Address%5D%0A%0AThank%20you%20for%20your%20amazing%20work%20serving%20communities%20in%20need%21%0A%0ABest%20regards%2C%0A%5BYour%20Name%5D"
+            class="btn btn-green donation-cta"
+            style="display: inline-flex; align-items: center; gap: 0.5rem; animation: pulse 2s ease-in-out infinite;">
             <svg style="width: 1.25rem; height: 1.25rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
+              </path>
             </svg>
+            Support Our Ministry
           </a>
         </div>
-      </section>
-    </main>
 
-    <!-- Footer -->
-    <footer>
-      <div style="max-width: 1200px; margin: 0 auto; padding: 1rem;">
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-bottom: 1rem;">
-          <div>
-            <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem;">Contact Us</h3>
-            <div style="display: flex; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.5rem;">
-              <svg style="width: 1.25rem; height: 1.25rem; flex-shrink: 0; margin-top: 0.125rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-              </svg>
-              <a href="mailto:deanjweber2000@yahoo.com?subject=Inquiry%20about%20Christ%20Care%20Ministry&body=Hello%20Rev.%20Dean%2C%0A%0AI%20am%20contacting%20you%20regarding%20Christ%20Care%20Ministry.%0A%0AMy%20inquiry%3A%0A%5BPlease%20describe%20your%20question%20or%20request%5D%0A%0A%0APlease%20contact%20me%20at%3A%0AName%3A%20%5BYour%20Name%5D%0APhone%3A%20%5BYour%20Phone%20Number%5D%0AEmail%3A%20%5BYour%20Email%5D%0A%0AThank%20you%2C%0A%5BYour%20Name%5D" style="color: #2563eb; text-decoration: none; word-break: break-all;">
-                deanjweber2000@yahoo.com
-              </a>
+        <!-- Donation Highlight Banner -->
+        <div
+          style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border: 2px solid #fbbf24; border-radius: 12px; padding: 0.75rem 1rem; margin-bottom: 2rem; box-shadow: 0 8px 24px rgba(251, 191, 36, 0.3);">
+          <div style="display: flex; align-items: center; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
+            <svg style="width: 2rem; height: 2rem; color: #92400e; flex-shrink: 0;" fill="none" stroke="currentColor"
+              viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+              </path>
+            </svg>
+            <div style="text-align: center;">
+              <p style="font-weight: 700; font-size: 1.125rem; color: #78350f; margin-bottom: 0.25rem;">Your Donations
+                Make a Difference</p>
+              <p style="font-size: 0.95rem; color: #92400e; margin-bottom: 0.25rem;">Every contribution helps us deliver
+                food and essentials to families in need</p>
             </div>
           </div>
-          <div>
-            <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem;">Service Areas</h3>
-            <p>IL • KY • VA • WV • MO • LA</p>
-          </div>
-          <div>
-            <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem;">Our Mission</h3>
-            <p>Spreading Christ's love through service</p>
+        </div>
+      </header>
+      <div style="margin-top: 2rem;">
+        <picture>
+          <source media="(max-width: 768px)" srcset="img/ChristCareTruckPicture-mobile.webp">
+          <img class="softened-image" style="max-width: 600px; width: 100%; display: block; margin: 0 auto;"
+            src="img/ChristCareTruckPicture.webp" alt="Christ Care Ministry Truck delivering hope to communities" />
+        </picture>
+      </div>
+    </section>
+
+    <!-- About Rev. Dean Weber -->
+    <section class="fade-in">
+      <div style="display: grid; grid-template-columns: 1fr; gap: 2rem; align-items: center;">
+        <div>
+          <h2 style="text-align: center;">Rev. Dean Weber</h2>
+          <p>
+            I am Rev. Dean Weber, dedicated to helping more people, churches, and
+            organizations through our ministry. Our mission extends as far as our trucks and team can reach.
+          </p>
+          <p>
+            We operate with <strong>two box trucks</strong> to maximize our outreach and service
+            capabilities, ensuring we can deliver hope and essential supplies to communities across multiple states.
+          </p>
+          <div
+            style="margin-top: 1.5rem; padding: 1rem; background-color: #eff6ff; border-radius: 0.5rem; border-left: 4px solid #3b82f6;">
+            <p style="color: #1e40af; font-weight: 500; display: flex; align-items: center; gap: 0.5rem;">
+              <svg style="width: 1.25rem; height: 1.25rem; flex-shrink: 0;" fill="none" stroke="currentColor"
+                viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+              </svg>
+              Serving: IL, KY, VA, WV, MO, LA, and beyond
+            </p>
           </div>
         </div>
-        <div style="border-top: 1px solid #e5e7eb; padding-top: 0.75rem;">
-          <p>&copy; 2024 Christ Care Ministry. All rights reserved.</p>
-          <p style="font-size: 0.875rem; margin-top: 0.5rem;">Bringing hope and nourishment to communities in need</p>
+        <div style="text-align: center;">
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/DeanPicture-mobile.webp">
+            <img class="softened-image" style="max-width: 400px; width: 100%; display: block; margin: 0 auto;"
+              src="img/DeanPicture.webp" alt="Rev. Dean Weber - Founder of Christ Care Ministry" />
+          </picture>
         </div>
       </div>
-    </footer>
+    </section>
 
-    <!-- Smooth Scroll Script -->
-    <script>
-      // Add fade-in animation on scroll
-      const observerOptions = {
-        threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
-      };
+    <!-- Mission Section -->
+    <section class="mission fade-in">
+      <h2>Our Mission</h2>
+      <div style="max-width: 800px; margin: 0 auto;">
+        <p style="margin-bottom: 2rem;">
+          Christ Care Ministry is a Christian organization dedicated to
+          delivering food and essential items to food pantries and individuals
+          in need.
+        </p>
+        <div
+          style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+          <div style="text-align: center; padding: 1.5rem; background-color: #f0fdf4; border-radius: 0.5rem;">
+            <div style="margin-bottom: 1rem; display: flex; justify-content: center;">
+              <svg style="width: 3rem; height: 3rem; color: #166534;" fill="none" stroke="currentColor"
+                viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
+                </path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12l2 2 4-4"></path>
+              </svg>
+            </div>
+            <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 0.5rem;">Faith-Driven</h3>
+            <p>Guided by Christian values and the call to serve others with love and compassion.</p>
+          </div>
+          <div style="text-align: center; padding: 1.5rem; background-color: #eff6ff; border-radius: 0.5rem;">
+            <div style="margin-bottom: 1rem; display: flex; justify-content: center;">
+              <svg style="width: 3rem; height: 3rem; color: #1e40af;" fill="none" stroke="currentColor"
+                viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2">
+                </path>
+              </svg>
+            </div>
+            <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 0.5rem;">Direct Delivery</h3>
+            <p>Two box trucks ensuring efficient delivery of food and supplies to those who need them most.</p>
+          </div>
+          <div style="text-align: center; padding: 1.5rem; background-color: #fef3c7; border-radius: 0.5rem;">
+            <div style="margin-bottom: 1rem; display: flex; justify-content: center;">
+              <svg style="width: 3rem; height: 3rem; color: #92400e;" fill="none" stroke="currentColor"
+                viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+                </path>
+              </svg>
+            </div>
+            <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 0.5rem;">Community Impact</h3>
+            <p>Spreading Christ's love and support across multiple states and communities.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('fade-in');
-          }
-        });
-      }, observerOptions);
+    <!-- Services Section -->
+    <section class="fade-in">
+      <h2 style="text-align: center; margin-bottom: 2rem;">Our Services</h2>
+      <p style="text-align: center; margin-bottom: 2rem; max-width: 800px; margin-left: auto; margin-right: auto;">
+        We provide essential items such as food, household supplies, and
+        Christmas gifts to those in need. Our dedicated team travels across multiple states,
+        reaching communities and spreading Christ's love and support.
+      </p>
 
-      // Observe all sections
-      document.querySelectorAll('section').forEach(section => {
-        observer.observe(section);
+      <div class="image-grid">
+        <div>
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/MinistryTruckSignage-mobile.webp">
+            <img class="softened-image" src="img/MinistryTruckSignage.webp"
+              alt="Ministry truck signage - Helping those in need, Nourishing body and soul" />
+          </picture>
+        </div>
+
+        <div>
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/TwoTrucksFrontView-mobile.webp">
+            <img class="softened-image" src="img/TwoTrucksFrontView.webp"
+              alt="Two delivery trucks ready for service - Front view of our fleet" />
+          </picture>
+        </div>
+
+        <div>
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/FullTrucksWithDrinksSlantedView-mobile.webp">
+            <img class="softened-image" src="img/FullTrucksWithDrinksSlantedView.webp"
+              alt="Multiple trucks loaded with drinks - Large scale beverage distribution" />
+          </picture>
+        </div>
+
+        <div>
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/WholeFoodDelivery-mobile.webp">
+            <img class="softened-image" src="img/WholeFoodDelivery.webp"
+              alt="Whole Food Delivery - Nutritious meals for families in need" />
+          </picture>
+        </div>
+
+        <div>
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/ChristmasGifts-mobile.webp">
+            <img class="softened-image" src="img/ChristmasGifts.webp"
+              alt="Christmas Gifts - Bringing joy during the holiday season" />
+          </picture>
+        </div>
+
+        <div>
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/FullTruckWithDrinks-mobile.webp">
+            <img class="softened-image" src="img/FullTruckWithDrinks.webp"
+              alt="Truck fully loaded with beverage supplies - Efficient delivery service" />
+          </picture>
+        </div>
+
+        <div>
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/TwoTrucksView-mobile.webp">
+            <img class="softened-image" src="img/TwoTrucksView.webp"
+              alt="Dual truck operation - Comprehensive delivery capabilities" />
+          </picture>
+        </div>
+
+        <div>
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/BoxTruckWith3Pallets-mobile.webp">
+            <img class="softened-image" src="img/BoxTruckWith3Pallets.webp"
+              alt="Box Truck with 3 Pallets - Large scale delivery operations" />
+          </picture>
+        </div>
+
+        <div>
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/BoxTruckWithPallet-mobile.webp">
+            <img class="softened-image" src="img/BoxTruckWithPallet.webp"
+              alt="Box Truck with Pallet - Efficient distribution system" />
+          </picture>
+        </div>
+
+        <div>
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/BoxesDelivery-mobile.webp">
+            <img class="softened-image" src="img/BoxesDelivery.webp"
+              alt="Boxes Delivery - Organized distribution of essential supplies" />
+          </picture>
+        </div>
+
+        <div>
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/Pallets-mobile.webp">
+            <img class="softened-image" src="img/Pallets.webp" alt="Pallets - Bulk food and supply organization" />
+          </picture>
+        </div>
+
+        <div>
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/Christmas+FoodDelivery-mobile.webp">
+            <img class="softened-image" src="img/Christmas+FoodDelivery.webp"
+              alt="Christmas and Food Delivery - Holiday spirit and nourishment combined" />
+          </picture>
+        </div>
+      </div>
+
+      <div style="margin-top: 3rem; text-align: center;">
+        <a href="food.html" class="btn btn-blue" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+          <svg style="width: 1.25rem; height: 1.25rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253">
+            </path>
+          </svg>
+          View Current Food Availability
+          <svg style="width: 1.25rem; height: 1.25rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div style="max-width: 1200px; margin: 0 auto; padding: 1rem;">
+      <div
+        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-bottom: 1rem;">
+        <div>
+          <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem;">Contact Us</h3>
+          <div style="display: flex; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.5rem;">
+            <svg style="width: 1.25rem; height: 1.25rem; flex-shrink: 0; margin-top: 0.125rem;" fill="none"
+              stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+              </path>
+            </svg>
+            <a href="mailto:deanjweber2000@yahoo.com?subject=Inquiry%20about%20Christ%20Care%20Ministry&body=Hello%20Rev.%20Dean%2C%0A%0AI%20am%20contacting%20you%20regarding%20Christ%20Care%20Ministry.%0A%0AMy%20inquiry%3A%0A%5BPlease%20describe%20your%20question%20or%20request%5D%0A%0A%0APlease%20contact%20me%20at%3A%0AName%3A%20%5BYour%20Name%5D%0APhone%3A%20%5BYour%20Phone%20Number%5D%0AEmail%3A%20%5BYour%20Email%5D%0A%0AThank%20you%2C%0A%5BYour%20Name%5D"
+              style="color: #2563eb; text-decoration: none; word-break: break-all;">
+              deanjweber2000@yahoo.com
+            </a>
+          </div>
+        </div>
+        <div>
+          <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem;">Service Areas</h3>
+          <p>IL • KY • VA • WV • MO • LA</p>
+        </div>
+        <div>
+          <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem;">Our Mission</h3>
+          <p>Spreading Christ's love through service</p>
+        </div>
+      </div>
+      <div style="border-top: 1px solid #e5e7eb; padding-top: 0.75rem;">
+        <p>&copy; 2024 Christ Care Ministry. All rights reserved.</p>
+        <p style="font-size: 0.875rem; margin-top: 0.5rem;">Bringing hope and nourishment to communities in need</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Smooth Scroll Script -->
+  <script>
+    // Add fade-in animation on scroll
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('fade-in');
+        }
       });
-    </script>
-  </body>
+    }, observerOptions);
+
+    // Observe all sections
+    document.querySelectorAll('section').forEach(section => {
+      observer.observe(section);
+    });
+  </script>
+</body>
+
 </html>
